@@ -30,9 +30,10 @@ $(function () {
     // });
 
     // Populate using a JSON file
-    // WTF.init( 'sample.json' );
+    WTF.init("sample.json");
 
     // Populate using a Google spreadsheet ID (you must publish it first!)
     // @see https://support.google.com/drive/answer/37579?hl=en
-    WTF.init("0AvG1Hx204EyydF9ub1M2cVJ3Z1VGdDhTSWg0ZV9LNGc");
+    // WTF.init("1d4Z7b6TTyINdS9pl7Ow5q3HEkGzdPki-4IR_wrCeu9U");
+    // WTF.init("2PACX-1vTa_AUAdwTGylttLFqMd0nYfMm2d5Up9UznZMifHjUq3Y4KssKRZXtJoG70avaZBA6CCmLR-pb707kk");
 });
