@@ -1,23 +1,43 @@
 {
-    "heading": ["Get ready to", "You're gonna have to"],
+    "heading": [
+        "Get ready to",
+        "You're gonna have to",
+        "Are you tactical enough to",
+        "Gear up. You're going to",
+        "Here's the situation: You need to"
+    ],
 
     "response": [
         "That's a suicide mission",
         "We don't have time for that",
-        "Too easy"
+        "Too easy",
+        "I'd rather not die",
+        "Those chumps aren't worth our time",
+        "Been there, done that",
+        "That sounds like a nightmare",
+        "I'm tired of fighting them",
+        "I'm tired of fighting there",
+        "Sounds boring",
+        "I'm not going into that meat grinder"
     ],
 
     "template": [
-        "Steal some intel from @faction_noun on @map",
+        "Grab some intel from @faction_noun on @map",
         "Steal an asset from @faction_noun on @map",
+        "Steal some assets from @faction_noun on @map",
         "Capture a base from @faction_noun on @map",
-        "Clear the @faction_noun out of a town on @map",
-        "Eliminate @faction_adjective forces on @map",
+        "Clear @faction_noun out of a town on @map",
+        "Eliminate the @faction_adjective forces on @map",
         "Take out the @faction_adjective HVT on @map",
-        "Destroy @faction_adjective assets on @map",
+        "Destroy valuable @faction_adjective equipment on @map",
+        "Destroy @faction_noun's FOB on @map",
         "Hold out against @faction_noun on @map",
         "Search @map for the secret @faction_adjective base",
-        "Find the McGuffin on @map before @faction_noun murders you"
+        "Find the McGuffin on @map before @faction_noun murders you",
+        "Intercept the @faction_adjective convoy on @map",
+        "Save some civvies from the tyranny of @faction_noun on @map",
+        "Recover the intel on @map before @faction_noun finds it",
+        "Save a team stranded on @map before @faction_noun wipes them out"
     ],
 
     "map": [
