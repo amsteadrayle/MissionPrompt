@@ -88,44 +88,6 @@ var WTF = (function () {
     /*
       ------------------------------------------------------------
 
-        Converts CSV to a regular corpus object
-        @see sample.json
-
-      ------------------------------------------------------------
-    */
-
-    function parseCSV(csv) {
-        var i,
-            j,
-            k,
-            n,
-            m,
-            cols,
-            keys = {},
-            data = {},
-            rows = csv.split("\n");
-
-        for (i = 0, n = rows.length; i < n; i++, j = i - 1) {
-            cols = rows[i].replace(RE_QUOTE, escape).split(",");
-
-            for (k = 0, m = cols.length; k < m; k++) {
-                if (i === 0) {
-                    data[(keys[k] = cols[k].toLowerCase())] = [];
-                } else if (cols[k]) {
-                    data[keys[k]][j] = unescape(cols[k]).replace(
-                        /^\"|\"$/g,
-                        ""
-                    );
-                }
-            }
-        }
-
-        return data;
-    }
-
-    /*
-      ------------------------------------------------------------
-
         Converts JSON data to a regular corpus object
         @see sample.json
 
