@@ -4,7 +4,13 @@
         "You're gonna have to",
         "Are you tactical enough to",
         "Gear up. You're going to",
-        "Here's the situation: You need to"
+        "Here's the situation: You need to",
+        "Do you have the skills to",
+        "Is your gear tacticool enough to",
+        "Did your training cover how to",
+        "Command needs you to",
+        "You've got orders to",
+        "Do you remember the last time you had to"
     ],
 
     "response": [
@@ -18,7 +24,13 @@
         "I'm tired of fighting them",
         "I'm tired of fighting there",
         "Sounds boring",
-        "I'm not going into that meat grinder"
+        "I'm not going into that meat grinder",
+        "Who?",
+        "Where?",
+        "Not a chance",
+        "I'm never doing that again",
+        "That's a rookie job",
+        "Give me a better life insurance policy first"
     ],
 
     "template": [
@@ -37,7 +49,15 @@
         "Intercept the @faction_adjective convoy on @map",
         "Save some civvies from the tyranny of @faction_noun on @map",
         "Recover the intel on @map before @faction_noun finds it",
-        "Save a team stranded on @map before @faction_noun wipes them out"
+        "Save a team stranded on @map before @faction_noun wipes them out",
+        "Rescue the @map VIP from @faction_noun",
+        "Run down the @faction_adjective forces before they escape @map",
+        "Find out what @faction_noun are looking for in @map",
+        "Find out why @faction_noun are so interested in @map",
+        "Make @faction_noun regret interrupting your @map vacation",
+        "Escape the overwhelming @faction_adjective assault on your @map FOB",
+        "Punch a hole through @faction_adjective lines on @map",
+        "Deliver a package to our @map contacts behind @faction_noun lines"
     ],
 
     "map": [
@@ -100,11 +120,9 @@
         "HIL",
         "US Army",
         "US Marines",
-        "Russian",
         "Chedaki",
         "NATO",
         "CSAT",
-        "Serbian",
         "SLA",
         "Takistani Army",
         "Takistani Militia",
@@ -116,7 +134,19 @@
         "RACS",
         "Syndikat",
         "Takistani Local",
-        "UN"
+        "UN",
+        "mercenary",
+        "insurgent",
+        "criminal",
+        "Swedish",
+        "Russian",
+        "Serbian",
+        "British",
+        "Canadian",
+        "French",
+        "German",
+        "American",
+        "Australian"
     ],
 
     "faction_noun": [
@@ -146,6 +176,20 @@
         "Syndikat",
         "NATO",
         "CSAT",
-        "Takistani Locals"
+        "Takistani Locals",
+        "an insurgency",
+        "the insurgency",
+        "the Swedish army",
+        "the Russian army",
+        "the Serbian army",
+        "the British army",
+        "the Canadian army",
+        "the French army",
+        "the German army",
+        "the Australian army",
+        "a criminal organization",
+        "the criminal organization",
+        "some criminals",
+        "some hooligans"
     ]
 }
